@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding:0;
+}
+table {
+    font-size: 12px;
+    line-height: 45px;
+    text-align:center;
+    width: 800px;
+    margin:auto;
+    border-collapse: collapse;
+} 
+caption{
+    background-color: rgb(166, 48, 212);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+table,
+tr,
+th,
+td{
+    border:1px solid rgb(229, 212, 245);
+}
+th,
+td{
+    border:none;
+}
+th{
+    color: white;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color:rgb(144, 165, 235);
+}
